@@ -1,0 +1,246 @@
+/* Resets */
+header, body, footer, div, ul, ol, li{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial, san-sarif;
+}
+body{background: #eee;}
+.clear{ clear: all; };
+
+/* Overall */
+.title-box{
+	width: 290px;
+	float: left;
+	background-color: #00B9F4;
+	height: 30px;
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+}
+.float-left{float: left;}
+.float-right{float: right;}
+
+/* Header */
+#header-wrapper{
+	width: 100%;
+	height: 115px;
+	margin: 0px;
+	padding: 0px;
+	float: none;
+	border-bottom: 1px solid #000;
+	background: #fff;
+}
+#header-wrapper header{
+	width: 1000px;
+	height: 112px;
+	margin: 0 auto;
+	float: none;
+}
+#header-wrapper header #logo{
+	width: 200px;
+	height: 60px;
+	margin: 10px 30px 10px 0px;
+	float: left;
+}
+#header-wrapper header #logo #really-big-red-text{
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: bold;
+	float: left;
+	color: #f00;
+}
+#header-wrapper #login-and-info{
+	float: right;
+	margin-right: 10px;
+}
+#header-wrapper header nav{
+	float: left;
+	width: 998px;
+	height: 40px;
+}
+#header-wrapper header nav ul{
+	list-style-type: none;
+	float: left;
+}
+#header-wrapper header nav ul li{
+	float: left;
+	padding: 6px 10px;
+	font-size: 18px;}
+#header-wrapper header nav ul li a{
+	text-decoration: none;
+	color: #999;
+	text-transform: uppercase;
+}
+#header-wrapper header nav ul li a:hover{
+	text-decoration: underline;
+	color: #999;
+	text-transform: uppercase;
+}
+
+/* Content */
+#content-wrapper{
+	float: none;
+	margin: 0px auto;
+	width: 1000px;
+}
+
+/* Left */
+#left{
+	float: left;
+	width: 695px;
+	position: relative;
+	min-height: 400px;
+	padding-bottom: 20px;
+	margin-right: 15px;
+}
+#left #carosel{
+	float: left;
+	width: 691px;
+	margin: 15px 0px 0px 0px;
+	height: 200px;
+}
+#left #inner-page-desc{
+	float: left;
+	width: 691px;
+	margin: 15px 0px 0px 0px;
+	background: #fff;
+}
+#left #inner-page-desc p{
+	margin: 10px 15px;
+	font-size: 12px;
+}
+#left article.front-page{
+	float: left;
+	width: 671px;
+	margin: 15px 0px 0px 0px;
+	background: #fff;
+	/*box-shadow: 0px 7px 5px 5px #ccc;*/
+	padding: 10px;
+}
+#left article.inner-page{
+	float: left;
+	width: 193px;
+	max-height: 193px;
+	min-height: 193px;
+	margin: 15px 15px 0px 0px;
+	background: #fff;
+	/*box-shadow: 0px 7px 5px 5px #ccc;*/
+	padding: 10px;
+	overflow: hidden;
+}
+#left article.front-page p, #left article.inner-page p{
+	font-size: 12px;
+}
+#left article.front-page p.title, #left article.inner-page p.title{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+}
+#left article.front-page p.date, #left article.inner-page p.date{
+	font-size: 12px;
+	margin: 0px 0px 10px 0px;
+	font-style: italic;
+}
+#left article.front-page img{
+	height: 75px;
+	width: 75px;
+	float: left;
+	margin: 5px 15px 10px 5px;
+}
+#left #button{
+	width: 671px;
+	height: 50px;
+	margin: 15px 0px 0px 0px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	color: #000;
+	background: #888;
+	font-size: 30px;
+}
+
+
+/* Right */
+#right{
+	float: left;
+	width: 290px;
+	position: relative;
+	min-height: 400px;
+	margin-bottom: 15px;
+}
+#right > div{
+	float: left;
+	width: 290px;
+	margin: 15px 0px 0px 0px;
+	background: #fff;
+}
+#right > div .new-video{
+	float: left;
+	width: 260px;
+	margin: 5px 15px;
+}
+#right > div .title-box{
+	float: left;
+	width: 290px;
+}
+#right > div .title-box > p{
+	font-size: 26px;
+	color: #fff;
+	margin: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+#right > div .twitter-box{
+	width: 258px;
+	margin: 0px 15px 15px 15px;
+	background-color: #fff;
+	min-height: 235px;
+	float: left;
+}
+
+/* Footer */
+#footer-wrapper{
+	width: 100%;
+	float: left;
+	border-top: 1px solid #000;
+	background: #fff;
+}
+footer{
+	width: 1000px;
+	margin: 15px auto 0px auto;
+}
+footer nav{
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+footer nav ul{
+	list-style-type: none;
+	float: left;
+}
+footer nav ul li{
+	font-size: 11px;
+}
+footer #contact-form{
+	float: left;
+	width: 288px;
+}
+footer p{
+	margin: 0px 0px 5px 0px;
+}
+div#copyright{
+	padding: 15px 0px;
+	width: 1000px;
+	float: left;
+}
+div#copyright p{
+	font-size: 10px;
+}
+
+/* Input */
+
+/* Colors */
+.twitter-color{background-color: #2FCBFE;}
+.black{background-color: #000;}
+.purple{background-color: #7F00FF;}
+.red{background-color: #f25;}

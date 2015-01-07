@@ -1,0 +1,12 @@
+[03-Feb-2014 15:19:09 America/Denver] PHP Notice:  Undefined index: num in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-viewer-c.php on line 2
+[03-Feb-2014 15:19:09 America/Denver] PHP Fatal error:  Call to undefined function getRecords() in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-viewer-c.php on line 7
+[03-Feb-2014 15:19:18 America/Denver] PHP Notice:  Undefined index: num in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-viewer-c.php on line 2
+[03-Feb-2014 15:19:18 America/Denver] PHP Fatal error:  Call to undefined function getRecords() in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-viewer-c.php on line 7
+[03-Feb-2014 15:20:02 America/Denver] PHP Notice:  Undefined index: num in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-viewer-c.php on line 2
+[03-Feb-2014 15:20:02 America/Denver] PHP Fatal error:  Call to undefined function getRecords() in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-viewer-c.php on line 7
+[03-Feb-2014 15:22:04 America/Denver] PHP Warning:  require_once(cms-library.php): failed to open stream: No such file or directory in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-loader.php on line 2
+[03-Feb-2014 15:22:04 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'cms-library.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-loader.php on line 2
+[03-Feb-2014 15:26:28 America/Denver] PHP Warning:  require_once(cms-library.php): failed to open stream: No such file or directory in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-loader.php on line 2
+[03-Feb-2014 15:26:28 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'cms-library.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-loader.php on line 2
+[03-Feb-2014 15:26:41 America/Denver] PHP Warning:  require_once(cms-library.php): failed to open stream: No such file or directory in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-loader.php on line 2
+[03-Feb-2014 15:26:41 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'cms-library.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/fauxgeek/public_html/dev/modules/article-viewer/article-loader.php on line 2
